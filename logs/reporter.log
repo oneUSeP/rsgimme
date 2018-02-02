@@ -1,0 +1,80 @@
+2018-01-26T02:23:55.019Z - info: Initializing jsreport@1.9.2 in development mode using configuration file: jsreport.config.json
+2018-01-26T02:23:55.021Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2018-01-26T02:23:55.027Z - info: Searching for available extensions in C:\Users\glevi\projects\kmsd\jsreport\
+2018-01-26T02:23:55.030Z - info: Extensions location cache not found, crawling directories
+2018-01-26T02:23:57.887Z - info: Found 30 extensions
+2018-01-26T02:23:57.926Z - info: Using extension import-export
+2018-01-26T02:23:59.279Z - info: Using extension tags
+2018-01-26T02:23:59.349Z - info: Using extension templates
+2018-01-26T02:23:59.360Z - info: Using extension jsrender
+2018-01-26T02:23:59.364Z - info: Using extension cli
+2018-01-26T02:23:59.366Z - info: Using extension handlebars
+2018-01-26T02:23:59.373Z - info: Using extension debug
+2018-01-26T02:23:59.405Z - info: Using extension express
+2018-01-26T02:24:00.050Z - info: Using extension fop-pdf
+2018-01-26T02:24:00.067Z - info: Using extension phantom-pdf
+2018-01-26T02:24:00.285Z - info: Using extension fs-store
+2018-01-26T02:24:01.850Z - info: Using extension authorization
+2018-01-26T02:24:01.870Z - info: Using extension images
+2018-01-26T02:24:01.880Z - info: Using extension child-templates
+2018-01-26T02:24:01.890Z - info: Using extension browser-client
+2018-01-26T02:24:01.893Z - info: Using extension licensing
+2018-01-26T02:24:02.009Z - info: Using extension data
+2018-01-26T02:24:02.034Z - info: Using extension text
+2018-01-26T02:24:02.037Z - info: Using extension reports
+2018-01-26T02:24:02.060Z - info: Using extension resources
+2018-01-26T02:24:02.079Z - info: Using extension base
+2018-01-26T02:24:02.082Z - info: Using extension studio
+2018-01-26T02:24:02.664Z - info: Using extension html-to-xlsx
+2018-01-26T02:24:02.907Z - info: Using extension scripts
+2018-01-26T02:24:02.912Z - info: Using extension assets
+2018-01-26T02:24:02.957Z - info: Using extension scheduling
+2018-01-26T02:24:03.375Z - info: Using extension xlsx
+2018-01-26T02:24:04.647Z - info: Using extension sample-template
+2018-01-26T02:24:04.657Z - info: Using extension public-templates
+2018-01-26T02:24:04.731Z - info: Initializing fs storage at C:\Users\glevi\projects\kmsd\jsreport\data
+2018-01-26T02:24:05.043Z - info: Creating default express app.
+2018-01-26T02:24:05.431Z - info: jsreport server successfully started on http port: 5488
+2018-01-26T02:24:05.491Z - info: Verifying license key free
+2018-01-26T02:24:05.495Z - info: Using free license
+2018-01-26T02:24:05.897Z - info: reporter initialized
+2018-01-26T05:49:33.632Z - info: Initializing jsreport@1.9.2 in development mode using configuration file: jsreport.config.json
+2018-01-26T05:49:33.636Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2018-01-26T05:49:33.700Z - info: Searching for available extensions in C:\Users\glevi\projects\kmsd\jsreport\
+2018-01-26T05:49:33.805Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\glevi\projects\kmsd\jsreport\node_modules\
+2018-01-26T05:49:33.960Z - info: Found 30 extensions
+2018-01-26T05:49:34.033Z - info: Using extension import-export
+2018-01-26T05:49:39.129Z - info: Using extension tags
+2018-01-26T05:49:39.231Z - info: Using extension templates
+2018-01-26T05:49:39.281Z - info: Using extension jsrender
+2018-01-26T05:49:39.284Z - info: Using extension cli
+2018-01-26T05:49:39.286Z - info: Using extension handlebars
+2018-01-26T05:49:39.350Z - info: Using extension debug
+2018-01-26T05:49:39.383Z - info: Using extension express
+2018-01-26T05:49:41.970Z - info: Using extension fop-pdf
+2018-01-26T05:49:42.104Z - info: Using extension phantom-pdf
+2018-01-26T05:49:42.584Z - info: Using extension fs-store
+2018-01-26T05:49:48.287Z - info: Using extension authorization
+2018-01-26T05:49:48.299Z - info: Using extension images
+2018-01-26T05:49:48.383Z - info: Using extension child-templates
+2018-01-26T05:49:48.466Z - info: Using extension browser-client
+2018-01-26T05:49:48.494Z - info: Using extension licensing
+2018-01-26T05:49:49.327Z - info: Using extension data
+2018-01-26T05:49:49.353Z - info: Using extension text
+2018-01-26T05:49:49.366Z - info: Using extension reports
+2018-01-26T05:49:49.455Z - info: Using extension resources
+2018-01-26T05:49:49.472Z - info: Using extension base
+2018-01-26T05:49:49.484Z - info: Using extension studio
+2018-01-26T05:49:57.990Z - info: Using extension html-to-xlsx
+2018-01-26T05:50:07.510Z - info: Using extension scripts
+2018-01-26T05:50:07.539Z - info: Using extension assets
+2018-01-26T05:50:07.630Z - info: Using extension scheduling
+2018-01-26T05:50:09.767Z - info: Using extension xlsx
+2018-01-26T05:50:15.382Z - info: Using extension sample-template
+2018-01-26T05:50:15.470Z - info: Using extension public-templates
+2018-01-26T05:50:15.571Z - info: Initializing fs storage at C:\Users\glevi\projects\kmsd\jsreport\data
+2018-01-26T05:50:16.196Z - info: Creating default express app.
+2018-01-26T05:50:17.782Z - info: jsreport server successfully started on http port: 5488
+2018-01-26T05:50:18.020Z - info: Verifying license key free
+2018-01-26T05:50:18.022Z - info: Using free license
+2018-01-26T05:50:18.027Z - info: reporter initialized
