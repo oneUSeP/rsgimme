@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>USeP Portal</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+        <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+        <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+    <style>
+        {#asset milligram.min.css @encoding=utf8}
+    </style>
+    </head>
+    <body>
+        <div style='text-align: center;'>
+            <img src="{#asset header.png @encoding=dataURI}" style="width:100%; max-width:100%;" />
+            <h5>STUDENT PORTAL</h5>
+            <h4><strong>REPORT OF GRADES</strong></h4>
+        </div>
+        <div>
+            <table style="width:100%">
+              <tr>
+                <td>{{Fullname}} <small>name</small></td>
+                <td>{{ayterm}} <small>academic year and term</small></td>
+              </tr>
+              <tr>
+                <td>{{StudentNo}} <small>student no </small></td>
+                <td>{{yearlevel}} <small>year level</small></td> 
+              </tr>
+              <tr>
+                <td>{{ProgName}} <small>course</small></td>
+              </tr>
+            </table>
+        </div>
+        <table>
+            <thead>
+              <tr>
+                <th>SUBJECT CODE</th>
+                <th>TITLE</th>
+                <th>UNITS</th>
+                <th>MID-TERM</th>
+                <th>FINAL</th>
+                <th>RE-EXAM</th>
+                <th>REMARKS</th>
+              </tr>
+            </thead>
+            <tbody>
+            {{#each grades}}
+              <tr>
+                <td>{{Subject}}</td>
+                <td>{{Title}}</td>
+                <td>{{Unit}}</td>
+                <td>{{Midterm}}</td>
+                <td>{{Final}}</td>
+                <td>{{ReExam}}</td>
+                <td>{{GradeRemarks}}</td>
+              </tr>
+              {{/each}}
+              <tr><td colspan="7" style="text-align:center;"><em>***NOTHING FOLLOWS***</em></td></tr>
+            </tbody>
+          </table>
+          <footer>
+              <small>Date of Printing: {{dateprinted}}</small>
+          </footer>
+    </body>
+</html>

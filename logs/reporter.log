@@ -78,3 +78,105 @@
 2018-01-26T05:50:18.020Z - info: Verifying license key free
 2018-01-26T05:50:18.022Z - info: Using free license
 2018-01-26T05:50:18.027Z - info: reporter initialized
+2018-02-02T05:26:22.535Z - info: Initializing jsreport@1.9.2 in development mode using configuration file: jsreport.config.json
+2018-02-02T05:26:22.535Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2018-02-02T05:26:22.551Z - info: Searching for available extensions in C:\Users\usepkmsd\projects\kmsd\rsgimme\
+2018-02-02T05:26:22.551Z - info: Extensions location cache doesn't contain entry yet, crawling
+2018-02-02T05:26:23.440Z - info: Found 30 extensions
+2018-02-02T05:26:23.455Z - info: Using extension import-export
+2018-02-02T05:26:23.658Z - info: Using extension tags
+2018-02-02T05:26:23.658Z - info: Using extension templates
+2018-02-02T05:26:23.658Z - info: Using extension jsrender
+2018-02-02T05:26:23.658Z - info: Using extension cli
+2018-02-02T05:26:23.674Z - info: Using extension handlebars
+2018-02-02T05:26:23.674Z - info: Using extension debug
+2018-02-02T05:26:23.674Z - info: Using extension express
+2018-02-02T05:26:23.767Z - info: Using extension fop-pdf
+2018-02-02T05:26:23.767Z - info: Using extension phantom-pdf
+2018-02-02T05:26:23.845Z - info: Using extension fs-store
+2018-02-02T05:26:24.173Z - info: Using extension authorization
+2018-02-02T05:26:24.189Z - info: Using extension images
+2018-02-02T05:26:24.189Z - info: Using extension child-templates
+2018-02-02T05:26:24.189Z - info: Using extension browser-client
+2018-02-02T05:26:24.189Z - info: Using extension licensing
+2018-02-02T05:26:24.329Z - info: Using extension data
+2018-02-02T05:26:24.329Z - info: Using extension text
+2018-02-02T05:26:24.329Z - info: Using extension reports
+2018-02-02T05:26:24.345Z - info: Using extension resources
+2018-02-02T05:26:24.345Z - info: Using extension base
+2018-02-02T05:26:24.345Z - info: Using extension studio
+2018-02-02T05:26:24.501Z - info: Using extension html-to-xlsx
+2018-02-02T05:26:24.625Z - info: Using extension scripts
+2018-02-02T05:26:24.641Z - info: Using extension assets
+2018-02-02T05:26:24.641Z - info: Using extension scheduling
+2018-02-02T05:26:24.781Z - info: Using extension xlsx
+2018-02-02T05:26:25.093Z - info: Using extension sample-template
+2018-02-02T05:26:25.093Z - info: Using extension public-templates
+2018-02-02T05:26:25.109Z - info: Initializing fs storage at C:\Users\usepkmsd\projects\kmsd\rsgimme\data
+2018-02-02T05:26:25.296Z - info: Creating default express app.
+2018-02-02T05:26:25.374Z - info: jsreport server successfully started on http port: 5488
+2018-02-02T05:26:25.483Z - info: Verifying license key free
+2018-02-02T05:26:25.483Z - info: Using free license
+2018-02-02T05:26:25.515Z - info: reporter initialized
+2018-02-02T05:40:18.659Z - info: Starting rendering request 1 (user: null) requestId=1
+2018-02-02T05:40:18.659Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=1
+2018-02-02T05:40:20.437Z - info: Rendering request 1 finished in 1794 ms requestId=1
+2018-02-02T05:40:20.515Z - info: Starting rendering request 2 (user: null) requestId=2
+2018-02-02T05:40:20.531Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=2
+2018-02-02T05:40:21.997Z - info: Rendering request 2 finished in 1482 ms requestId=2
+2018-02-02T05:40:22.013Z - info: Starting rendering request 3 (user: null) requestId=3
+2018-02-02T05:40:22.013Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=3
+2018-02-02T05:40:23.542Z - info: Rendering request 3 finished in 1529 ms requestId=3
+2018-02-02T05:45:43.694Z - info: Starting rendering request 4 (user: null) requestId=4
+2018-02-02T05:45:43.694Z - info: Rendering template {shortid:HJH11D83ce, recipe:phantom-pdf,engine:handlebars} requestId=4
+2018-02-02T05:45:43.974Z - error: Error when processing render request Error during rendering report: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44
+    throw new Error('Unsupported module in scripts: ' + moduleName + '. To enable require on particular module, you need to update the configuration as ' +
+    ^
+
+Error: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything
+    at _require (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44:11)
+    at evalmachine.<anonymous>:2:12
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:65:15)
+    at Object.runInNewContext (vm.js:135:38)
+    at module.exports (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:123:6)
+    at process.<anonymous> (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\script-manager\lib\worker-processes.js:48:36)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12) requestId=4
+2018-02-02T05:45:43.974Z - error: Error during processing request: http://172.16.210.101:5488/api/report/Orders details: Error during rendering report: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44
+    throw new Error('Unsupported module in scripts: ' + moduleName + '. To enable require on particular module, you need to update the configuration as ' +
+    ^
+
+Error: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything
+    at _require (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44:11)
+    at evalmachine.<anonymous>:2:12
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:65:15)
+    at Object.runInNewContext (vm.js:135:38)
+    at module.exports (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:123:6)
+    at process.<anonymous> (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\script-manager\lib\worker-processes.js:48:36)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+2018-02-02T05:45:49.155Z - info: Starting rendering request 5 (user: null) requestId=5
+2018-02-02T05:45:49.155Z - info: Rendering template {shortid:r18kyD83ce, recipe:xlsx,engine:handlebars} requestId=5
+2018-02-02T05:46:01.995Z - error: Error when processing render request Error during rendering report: getaddrinfo ENOTFOUND jsreport.net jsreport.net:80 Error: getaddrinfo ENOTFOUND jsreport.net jsreport.net:80
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26) requestId=5
+2018-02-02T05:46:01.995Z - error: Error during processing request: http://172.16.210.101:5488/api/report/Population details: Error during rendering report: getaddrinfo ENOTFOUND jsreport.net jsreport.net:80 Error: getaddrinfo ENOTFOUND jsreport.net jsreport.net:80
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+2018-02-02T05:46:07.457Z - info: Starting rendering request 6 (user: null) requestId=6
+2018-02-02T05:46:07.457Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=6
+2018-02-02T05:46:09.063Z - info: Rendering request 6 finished in 1606 ms requestId=6
+2018-02-02T05:46:09.141Z - info: Starting rendering request 7 (user: null) requestId=7
+2018-02-02T05:46:09.141Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=7
+2018-02-02T05:46:10.639Z - info: Rendering request 7 finished in 1498 ms requestId=7
+2018-02-02T05:46:10.701Z - info: Starting rendering request 8 (user: null) requestId=8
+2018-02-02T05:46:10.701Z - info: Rendering template {shortid:rkJTnK2ce, recipe:phantom-pdf,engine:handlebars} requestId=8
+2018-02-02T05:46:12.293Z - info: Rendering request 8 finished in 1592 ms requestId=8
+2018-02-02T05:53:31.722Z - info: Initializing jsreport@1.9.2 in development mode using configuration file: jsreport.config.json
+2018-02-02T05:53:31.722Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2018-02-02T05:53:31.722Z - info: Searching for available extensions in C:\Users\usepkmsd\projects\kmsd\rsgimme\
+2018-02-02T05:53:31.738Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\

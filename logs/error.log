@@ -1,0 +1,36 @@
+2018-02-02T05:45:43.974Z - error: Error when processing render request Error during rendering report: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44
+    throw new Error('Unsupported module in scripts: ' + moduleName + '. To enable require on particular module, you need to update the configuration as ' +
+    ^
+
+Error: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything
+    at _require (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44:11)
+    at evalmachine.<anonymous>:2:12
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:65:15)
+    at Object.runInNewContext (vm.js:135:38)
+    at module.exports (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:123:6)
+    at process.<anonymous> (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\script-manager\lib\worker-processes.js:48:36)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12) requestId=4
+2018-02-02T05:45:43.974Z - error: Error during processing request: http://172.16.210.101:5488/api/report/Orders details: Error during rendering report: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44
+    throw new Error('Unsupported module in scripts: ' + moduleName + '. To enable require on particular module, you need to update the configuration as ' +
+    ^
+
+Error: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything
+    at _require (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44:11)
+    at evalmachine.<anonymous>:2:12
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:65:15)
+    at Object.runInNewContext (vm.js:135:38)
+    at module.exports (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:123:6)
+    at process.<anonymous> (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\script-manager\lib\worker-processes.js:48:36)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+2018-02-02T05:46:01.995Z - error: Error when processing render request Error during rendering report: getaddrinfo ENOTFOUND jsreport.net jsreport.net:80 Error: getaddrinfo ENOTFOUND jsreport.net jsreport.net:80
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26) requestId=5
+2018-02-02T05:46:01.995Z - error: Error during processing request: http://172.16.210.101:5488/api/report/Population details: Error during rendering report: getaddrinfo ENOTFOUND jsreport.net jsreport.net:80 Error: getaddrinfo ENOTFOUND jsreport.net jsreport.net:80
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
