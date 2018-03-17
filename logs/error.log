@@ -34,3 +34,111 @@ Error: Unsupported module in scripts: http. To enable require on particular modu
 2018-02-02T05:46:01.995Z - error: Error during processing request: http://172.16.210.101:5488/api/report/Population details: Error during rendering report: getaddrinfo ENOTFOUND jsreport.net jsreport.net:80 Error: getaddrinfo ENOTFOUND jsreport.net jsreport.net:80
     at errnoException (dns.js:50:10)
     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+2018-02-09T02:29:36.674Z - error: Error when processing render request Error during rendering report: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44
+    throw new Error('Unsupported module in scripts: ' + moduleName + '. To enable require on particular module, you need to update the configuration as ' +
+    ^
+
+Error: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything
+    at _require (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44:11)
+    at evalmachine.<anonymous>:2:12
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:65:15)
+    at Object.runInNewContext (vm.js:135:38)
+    at module.exports (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:123:6)
+    at process.<anonymous> (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\script-manager\lib\worker-processes.js:48:36)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12) requestId=4
+2018-02-09T02:29:36.682Z - error: Error during processing request: http://192.168.1.195:5488/api/report/Orders details: Error during rendering report: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44
+    throw new Error('Unsupported module in scripts: ' + moduleName + '. To enable require on particular module, you need to update the configuration as ' +
+    ^
+
+Error: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything
+    at _require (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44:11)
+    at evalmachine.<anonymous>:2:12
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:65:15)
+    at Object.runInNewContext (vm.js:135:38)
+    at module.exports (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:123:6)
+    at process.<anonymous> (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\script-manager\lib\worker-processes.js:48:36)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+2018-02-09T02:48:47.803Z - error: Error when processing render request Error during rendering report: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44
+    throw new Error('Unsupported module in scripts: ' + moduleName + '. To enable require on particular module, you need to update the configuration as ' +
+    ^
+
+Error: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything
+    at _require (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44:11)
+    at evalmachine.<anonymous>:2:12
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:65:15)
+    at Object.runInNewContext (vm.js:135:38)
+    at module.exports (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:123:6)
+    at process.<anonymous> (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\script-manager\lib\worker-processes.js:48:36)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12) requestId=5
+2018-02-09T02:48:47.811Z - error: Error during processing request: http://192.168.1.195:5488/api/report/Orders details: Error during rendering report: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44
+    throw new Error('Unsupported module in scripts: ' + moduleName + '. To enable require on particular module, you need to update the configuration as ' +
+    ^
+
+Error: Unsupported module in scripts: http. To enable require on particular module, you need to update the configuration as {"scripts": { "allowedModules": ["http"] } } ... Alternatively you can also set "*" to allowedModules to enable everything
+    at _require (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:44:11)
+    at evalmachine.<anonymous>:2:12
+    at ContextifyScript.Script.runInContext (vm.js:59:29)
+    at ContextifyScript.Script.runInNewContext (vm.js:65:15)
+    at Object.runInNewContext (vm.js:135:38)
+    at module.exports (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-scripts\lib\scriptEvalChild.js:123:6)
+    at process.<anonymous> (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\script-manager\lib\worker-processes.js:48:36)
+    at emitTwo (events.js:126:13)
+    at process.emit (events.js:214:7)
+    at emit (internal/child_process.js:772:12)
+2018-02-09T03:00:01.786Z - error: Error when processing OData POST: /odata/assets Error: Duplicated entry for key milligram.min.css
+    at C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\lib\persistence.js:207:17
+    at C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:3047:16
+    at replenish (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:982:17)
+    at C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:986:9
+    at eachLimit$1 (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:3133:22)
+    at Object.<anonymous> (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:1016:16)
+    at Persistence.persistNewState (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\lib\persistence.js:174:9)
+    at Datastore._insert (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\nedb\lib\datastore.js:353:20)
+    at C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\nedb\lib\executor.js:40:13
+    at Immediate.process (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\nedb\node_modules\async\lib\async.js:731:21)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+2018-02-09T03:00:01.840Z - error: Error when processing OData POST: /odata/assets Error: Duplicated entry for key milligram.min.css
+    at C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\lib\persistence.js:207:17
+    at C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:3047:16
+    at replenish (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:982:17)
+    at C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:986:9
+    at eachLimit$1 (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:3133:22)
+    at Object.<anonymous> (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:1016:16)
+    at Persistence.persistNewState (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\lib\persistence.js:174:9)
+    at Datastore._insert (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\nedb\lib\datastore.js:353:20)
+    at C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\nedb\lib\executor.js:40:13
+    at Immediate.process (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\nedb\node_modules\async\lib\async.js:731:21)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+2018-02-09T03:00:01.860Z - error: Error when processing OData POST: /odata/assets Error: Duplicated entry for key milligram.min.css
+    at C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\lib\persistence.js:207:17
+    at C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:3047:16
+    at replenish (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:982:17)
+    at C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:986:9
+    at eachLimit$1 (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:3133:22)
+    at Object.<anonymous> (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\node_modules\async\dist\async.js:1016:16)
+    at Persistence.persistNewState (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\jsreport-fs-store\lib\persistence.js:174:9)
+    at Datastore._insert (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\nedb\lib\datastore.js:353:20)
+    at C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\nedb\lib\executor.js:40:13
+    at Object.process (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\nedb\node_modules\async\lib\async.js:731:21)
+    at next (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\nedb\node_modules\async\lib\async.js:728:27)
+    at Immediate.<anonymous> (C:\Users\usepkmsd\projects\kmsd\rsgimme\node_modules\nedb\node_modules\async\lib\async.js:24:16)
+    at runCallback (timers.js:789:20)
+    at tryOnImmediate (timers.js:751:5)
+    at processImmediate [as _immediateCallback] (timers.js:722:5)
+2018-02-09T03:51:50.458Z - error: Error during processing request: http://192.168.1.195:5488/api/report/Report%20of%20Grades%20per%20Semester details: Could not parse report template, aren't you missing content type? undefined
+2018-02-09T03:51:50.500Z - error: Error during processing request: http://192.168.1.195:5488/api/report/Report%20of%20Grades%20per%20Semester details: Could not parse report template, aren't you missing content type? undefined
+2018-02-09T03:52:01.949Z - error: Error during processing request: http://192.168.1.195:5488/api/report/Report%20of%20Grades%20per%20Semester details: Could not parse report template, aren't you missing content type? undefined
+2018-02-09T03:52:01.975Z - error: Error during processing request: http://192.168.1.195:5488/api/report/Report%20of%20Grades%20per%20Semester details: Could not parse report template, aren't you missing content type? undefined
